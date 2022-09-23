@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+form {
+    width: 30px;
+    height: 20px;
+    display: inline;
+}
+
+#search {
+    width: 30px;
+    height: max-content;
+    transition: 0.5s ease
+}
+
+#search:hover {
+
+    width: 100px;
+    transition: 0.5s ease
+}
+
+#search:focus {
+    width: 100px;
+}
+
+button {
+    height: max-content;
+}
